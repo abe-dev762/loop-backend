@@ -15,7 +15,7 @@ public final class MissingMandatoryValueException extends AssertionException {
        return new MissingMandatoryValueException(field, defaultMessage(field, "null"));
     }
 
-    public static MissingMandatoryValueException forEmpty(String field) {
+    public static MissingMandatoryValueException forEmptyValue(String field) {
        return new MissingMandatoryValueException(field, defaultMessage(field, "empty"));
     }
 
