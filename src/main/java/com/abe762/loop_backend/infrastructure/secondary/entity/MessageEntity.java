@@ -1,4 +1,4 @@
-package com.abe762.loop_backend.messaging.domain.message.service.infrastructure.secondary.entity;
+package com.abe762.loop_backend.infrastructure.secondary.entity;
 
 import com.abe762.loop_backend.messaging.domain.message.aggregate.Message;
 import com.abe762.loop_backend.messaging.domain.message.aggregate.MessageBuilder;

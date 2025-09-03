@@ -1,6 +1,6 @@
 package com.abe762.loop_backend.messaging.domain.message.service;
 
-import com.abe762.loop_backend.messaging.domain.message.service.infrastructure.secondary.message.ConversationViewedForNotification;
+import com.abe762.loop_backend.infrastructure.secondary.message.ConversationViewedForNotification;
 import com.abe762.loop_backend.messaging.domain.message.aggregate.Message;
 import com.abe762.loop_backend.messaging.domain.message.repository.MessageRepository;
 import com.abe762.loop_backend.messaging.domain.message.vo.ConversationPublicId;

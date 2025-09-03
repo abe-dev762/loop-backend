@@ -1,4 +1,4 @@
-package com.abe762.loop_backend.messaging.domain.message.service.infrastructure.secondary.message;
+package com.abe762.loop_backend.infrastructure.secondary.message;
 
 import java.util.List;
 import java.util.UUID;
