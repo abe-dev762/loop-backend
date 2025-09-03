@@ -1,4 +1,4 @@
-package com.abe762.loop_backend.infrastructure.secondary.entity;
+package com.abe762.loop_backend.messaging.domain.message.service.infrastructure.secondary.entity;
 
 import com.abe762.loop_backend.messaging.domain.user.aggregate.Authority;
 import com.abe762.loop_backend.messaging.domain.user.aggregate.AuthorityBuilder;
@@ -39,7 +39,7 @@ public class AuthorityEntity {
         return authorities
                 .stream()
                 .map(authority ->
-                        com.abe762.loop_backend.infrastructure.secondary.entity.AuthorityEntityBuilder.authorityEntity()
+                        com.abe762.loop_backend.messaging.domain.message.service.infrastructure.secondary.entity.AuthorityEntityBuilder.authorityEntity()
                                 .name(authority.getName().name()).build()).collect(Collectors.toSet());
 
     }

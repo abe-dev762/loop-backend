@@ -2,6 +2,7 @@ package com.abe762.loop_backend.messaging.domain.message.aggregate;
 
 import com.abe762.loop_backend.messaging.domain.message.vo.ConversationName;
 import com.abe762.loop_backend.messaging.domain.message.vo.ConversationPublicId;
+import com.abe762.loop_backend.messaging.domain.user.aggregate.User;
 import com.abe762.loop_backend.shared.error.domain.Assert;
 import org.jilt.Builder;
 
